@@ -1,0 +1,78 @@
+.text {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid #777777;
+}
+
+.mot-de-passe {
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid #777777;
+}
+
+.cree {
+    border: none;
+    margin-top: 50px;
+    background-color: #FFF9B0;
+    box-shadow: 5px 5px #FFAEC0;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #4D4C4C;
+    font-size: 15px;
+}
+.cree:hover{
+    box-shadow: 5px 5px #FFF9B0;
+    background-color: #FFAEC0;
+}
+
+.form_login {
+    margin-top: 100px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+
+}
+
+.Login_section {
+    background-color: #373737;
+    height: 700px;
+
+}
+
+.cree {
+    margin-left: 10px;
+}
+
+.form-INPUT {
+    padding-top: 50px;
+    padding-left: 84px;
+    position: relative;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: #4D4C4C;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login_media {
+    padding-bottom: 30px;
+
+}
+
+.MEDIA {
+    padding-top: 200px;
+}
+
+.grp-btn {
+    margin: -20px 30px 20px 35px;
+}
+
+.link_create {
+    margin: 20PX 0 0 40px;
+    text-decoration: none;
+    color: #373737;
+    font-family: 'Poppins', sans-serif;
+}

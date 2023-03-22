@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    height: 100vh;
+}
+
+.danseuse1, .danseuse2, .danseuse3{
+    position: absolute;
+    left: 400px;
+    width: 500px;
+    height: 600px;
+    
+}
+
+.leftQuote{
+    position: relative;
+    z-index: 999;
+    width: 400px;
+    margin: 230px 0 0 90px;
+    font-weight: bold;
+}
+
+.rightQuote{
+    position: relative;
+    font-size: 25px;
+    z-index: 999;
+    width: 500px;
+    margin: 200px -35px 0 0;
+}
+
+.rightQuote .fa-quote-left{
+    font-size: 60px;
+    color: #FFAEC0;
+    position: absolute;
+    top: -60px;
+    left: 50px;
+}
+
+.rightQuote .fa-quote-right{
+    font-size: 60px;
+    color: #FFAEC0;
+    position: absolute;
+    top: 90px;
+    right: 250px;
+}
+
+.highlight{
+    color: #FFAEC0;
+}
+
+.sec2{
+    padding: 80px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftQuote1{
+    font-size: 25px;
+    width: 480px;
+    position: relative;
+    z-index: 999;
+    font-size: 25px;
+    margin: 215px 0 0 -30px;
+}
+
+.rightQuote1{
+    position: relative;
+    z-index: 999;
+    width: 400px;
+    margin: 280px -35px 0 0px;
+    font-weight: bold;
+}
+
+.leftQuote1 .fa-quote-left{
+    font-size: 60px;
+    color: #FFAEC0;
+    position: absolute;
+    top: -60px;
+    left: 50px;
+}
+
+.leftQuote1 .fa-quote-right{
+    font-size: 60px;
+    color: #FFAEC0;
+    position: absolute;
+    top: 250px;
+    right: 250px;
+}
+
+.danseuse2{
+    width: 600px;
+}
+
+.sec3{
+    height: 100vh;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightQuote2{
+    font-size: 25px;
+    width: 480px;
+    position: relative;
+    z-index: 999;
+    font-size: 25px;
+    margin: 250px 50px 0 0px;
+}
+
+.leftQuote2{
+    position: relative;
+    z-index: 999;
+    width: 500px;
+    margin: 200px 0 0 0 ;
+    font-weight: bold;
+}
+
+.rightQuote2 .fa-quote-right{
+    font-size: 60px;
+    color: #FFAEC0;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+}
+
+.rightQuote2 .fa-quote-left{
+    font-size: 60px;
+    color: #FFAEC0;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
